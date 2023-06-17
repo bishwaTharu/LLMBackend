@@ -1,0 +1,9 @@
+.chroma
+models
+bloom.py
+sample3.txt
+state_of_the_union.txt
+v1chap4.pdf
+vicuna_model.py
+ __pycache__/
+.env
