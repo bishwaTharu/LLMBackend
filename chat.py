@@ -38,17 +38,10 @@ def chat_url():
     return base_url
 
 
-def prompt_():
-    txt_ = input()
-    return txt_
-
-
 def generate_response(prompt):
     payload = {"input_text": prompt}
-
     response_ = requests.post(chat_url(), json=payload)
     chatbot_response = response_.json().get("response")
-    # response = chatbot.chat(prompt)
     return chatbot_response
 
 
