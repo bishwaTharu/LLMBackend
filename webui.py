@@ -3,6 +3,7 @@ from dotenv import load_dotenv, find_dotenv
 import requests
 import streamlit as st
 
+
 load_dotenv(find_dotenv())
 base_url = os.getenv("BASE_URL")
 
