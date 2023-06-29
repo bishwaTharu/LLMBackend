@@ -6,3 +6,4 @@ streamlit==1.23.1
 streamlit-extras==0.2.7
 streamlit-chat==0.0.2.2
 python-dotenv==1.0.0
+pyngrok==6.0.0
